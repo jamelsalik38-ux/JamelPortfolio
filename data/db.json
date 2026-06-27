@@ -1,77 +1,65 @@
 {
   "projects": [
     {
-      "id": "g4kChg7w",
-      "title": "LinkDrop",
-      "description": "DropFile is a modern and responsive file-sharing web application that allows users to upload files up to 100MB and instantly generate a shareable download link. It features a clean dark-themed interface with drag-and-drop upload, file browsing, and customizable link expiration options, all without requiring users to log in.",
-      "image": "/uploads/mYqBWJNm8e.jpg",
+      "id": "dropfile",
+      "title": "DropFile",
+      "description": "A PHP/MySQL file-sharing web app with per-upload expiry windows, rate limiting, and privacy-first link handling. Hardened against abuse with prepared statements and CSRF protection.",
+      "image": "/uploads/placeholder-project.svg",
       "tech": [
         "PHP",
-        "MYSQL",
-        "HTML",
-        "CSS",
-        "JAVASCRIPT"
+        "MySQL",
+        "JavaScript",
+        "Security"
       ],
-      "github": "",
-      "demo": "https://jalinkdrop.unaux.com/",
-      "featured": false,
-      "createdAt": "2026-06-27T10:57:50.595Z"
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
+      "featured": true,
+      "createdAt": "2026-05-01T00:00:00.000Z"
     },
     {
-      "id": "8Acc1Cjr",
-      "title": "DropShare",
-      "description": "DropFile is a modern and responsive file-sharing web application that allows users to upload files up to 100MB and instantly generate a shareable download link. It features a clean dark-themed interface with drag-and-drop upload, file browsing, and customizable link expiration options, all without requiring users to log in.",
-      "image": "/uploads/Ag7viuMS3t.jpg",
+      "id": "teamfreenet",
+      "title": "TeamFreeNet",
+      "description": "A Filipino community forum focused on network and free internet tips. Includes a follow system, leaderboard, achievements, and a dark blue theme with optimized query performance.",
+      "image": "/uploads/placeholder-project.svg",
       "tech": [
         "PHP",
-        "MYSQL",
-        "HTML",
-        "CSS",
-        "JAVASCRIPT"
+        "MySQL",
+        "Bootstrap"
       ],
-      "github": "",
-      "demo": "https://dropshare.unaux.com/",
-      "featured": false,
-      "createdAt": "2026-06-27T09:57:14.372Z"
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
+      "featured": true,
+      "createdAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "q_kyccju",
-      "title": "TechShop – Admin Dashboard (E-Commerce Management System)",
-      "description": "TechShop is a web-based e-commerce platform designed for selling computer components and technology products online. The system allows customers to browse products, manage their shopping cart, and place orders through a responsive and user-friendly interface.\n\nThis system was developed as a school project for the Information Management course, demonstrating the implementation of a full-stack web application using PHP, MySQL, HTML, CSS, and JavaScript.",
-      "image": "/uploads/sEmdqFDGM8.jpg",
+      "id": "techshop",
+      "title": "TechShop",
+      "description": "A PHP/MySQL e-commerce platform for PC parts, built as a school final project. Features a 'Clean Luxe' redesign, bcrypt password hashing, CSRF protection, and prepared statements throughout.",
+      "image": "/uploads/placeholder-project.svg",
       "tech": [
-        "HTML5 CSS3 JavaScript PHP MySQL"
+        "PHP",
+        "MySQL",
+        "CSS"
       ],
-      "github": "",
-      "demo": "https://computech.wuaze.com/admin_login",
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
       "featured": false,
-      "createdAt": "2026-06-27T09:52:29.865Z"
+      "createdAt": "2026-01-20T00:00:00.000Z"
     },
     {
-      "id": "en_vCqOa",
-      "title": "TechShop – E-Commerce Web Application (Customer Portal)",
-      "description": "TechShop is a web-based e-commerce platform designed for selling computer components and technology products online. The system allows customers to browse products, manage their shopping cart, and place orders through a responsive and user-friendly interface.\n\nThis system was developed as a school project for the Information Management course.",
-      "image": "/uploads/Lu48SM3hJe.jpg",
+      "id": "studymate-ai",
+      "title": "StudyMate AI",
+      "description": "A Gemini API-integrated study assistant that helps students summarize notes and answer questions, deployed on InfinityFree.",
+      "image": "/uploads/placeholder-project.svg",
       "tech": [
-        "HTML5 CSS3 JavaScript PHP MySQL"
+        "PHP",
+        "JavaScript",
+        "Gemini API"
       ],
-      "github": "",
-      "demo": "https://computech.wuaze.com/?i=1",
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
       "featured": false,
-      "createdAt": "2026-06-27T09:49:35.742Z"
-    },
-    {
-      "id": "moPkwSbi",
-      "title": "DEVCARD — GitHub Profile Dashboard",
-      "description": "A fully functional developer dashboard built with pure HTML, CSS, and JavaScript that consumes the GitHub Public API in real-time. Search any GitHub username and instantly view their profile stats, top repositories sorted by stars, language breakdown with animated progress bars, recent public activity feed, and a contribution heatmap — all rendered dynamically with zero page reloads. Features a clean, minimal UI with smooth animations, responsive layout, and smart error handling for rate limits and invalid users.",
-      "image": "/uploads/K5oA3ENuai.jpg",
-      "tech": [
-        "HTML · CSS · JavaScript · GitHub REST API · Fetch API · Live Server"
-      ],
-      "github": "",
-      "demo": "https://github-dashboard-realtime.netlify.app/",
-      "featured": false,
-      "createdAt": "2026-06-27T09:47:10.161Z"
+      "createdAt": "2025-11-10T00:00:00.000Z"
     }
   ],
   "certificates": [
@@ -177,10 +165,10 @@
   "settings": {
     "name": "Jamel Salik",
     "role": "Full Stack Developer",
-    "profileImage": "/uploads/cD2vMeXaeh.png",
+    "profileImage": "/uploads/fGgxPAL6B5.jpg",
     "githubUrl": "https://github.com/jamelsalik38-ux",
     "facebookUrl": "https://www.facebook.com/jamel.kasan.salik.usman",
-    "email": "jamelsalik38@gmail.com",
+    "email": "",
     "resumeUrl": "",
     "status": "Open to freelance & internship work"
   }
