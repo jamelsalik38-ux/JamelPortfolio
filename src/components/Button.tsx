@@ -22,7 +22,7 @@ export default function Button({ variant = "primary", className, children, ...pr
         variant === "ghost" && "border border-white/20 text-white/80 hover:border-white/50 hover:text-white bg-white/[0.03]",
         className
       )}
-      {...props}
+      {...(props as any)}
     >
       {/* Ripple effect on click */}
       <span className="absolute inset-0 rounded-full" />
