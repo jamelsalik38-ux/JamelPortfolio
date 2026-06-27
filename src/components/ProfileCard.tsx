@@ -253,12 +253,12 @@ export default function ProfileCard({
             {/* Bio paragraphs */}
             <div className="flex flex-col gap-4 max-w-lg">
               <p className="text-white/55 leading-relaxed">
-                I'm a 3rd-year BSCS student from Cotabato City, PH. I've been shipping
+                I&apos;m a 3rd-year BSCS student from Cotabato City, PH. I&apos;ve been shipping
                 production-level PHP/MySQL web apps since my sophomore year — including a file-sharing
                 platform, a team collaboration tool, and an e-commerce storefront.
               </p>
               <p className="text-white/55 leading-relaxed">
-                Right now I'm leveling up into the JavaScript/TypeScript ecosystem, learning Next.js, 
+                Right now I&apos;m leveling up into the JavaScript/TypeScript ecosystem, learning Next.js, 
                 experimenting with 3D web graphics, and tinkering with Linux servers on the side.
                 I learn fastest when I build real things for real users.
               </p>

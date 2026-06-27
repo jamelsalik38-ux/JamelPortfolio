@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import type { Project } from "@/types";
@@ -11,6 +11,14 @@ export default function ProjectsSection({ projects }: { projects: Project[] }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const touchStartY = useRef(0);
+
+  const nextReel = useCallback(() => {
+    setReelIndex((i) => (i + 1) % projects.length);
+  }, [projects.length]);
+
+  const prevReel = useCallback(() => {
+    setReelIndex((i) => (i - 1 + projects.length) % projects.length);
+  }, [projects.length]);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 640);
@@ -34,7 +42,7 @@ export default function ProjectsSection({ projects }: { projects: Project[] }) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [reelOpen, reelIndex]);
+  }, [reelOpen, reelIndex, nextReel, prevReel]);
 
   const n = projects.length;
   const center = (n - 1) / 2;
@@ -45,13 +53,6 @@ export default function ProjectsSection({ projects }: { projects: Project[] }) {
   function openReel(index: number) {
     setReelIndex(index);
     setReelOpen(true);
-  }
-
-  function nextReel() {
-    setReelIndex((i) => (i + 1) % projects.length);
-  }
-  function prevReel() {
-    setReelIndex((i) => (i - 1 + projects.length) % projects.length);
   }
 
   return (
