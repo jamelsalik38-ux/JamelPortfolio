@@ -1,17 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/admin/dashboard/page": "app/admin/dashboard/page.js",
   "/admin/page": "app/admin/page.js",
-  "/api/auth/login/route": "app/api/auth/login/route.js",
-  "/api/auth/logout/route": "app/api/auth/logout/route.js",
-  "/api/certificates/[id]/route": "app/api/certificates/[id]/route.js",
-  "/api/certificates/route": "app/api/certificates/route.js",
-  "/api/projects/[id]/route": "app/api/projects/[id]/route.js",
-  "/api/projects/route": "app/api/projects/route.js",
-  "/api/settings/route": "app/api/settings/route.js",
-  "/api/skills/[id]/route": "app/api/skills/[id]/route.js",
-  "/api/skills/route": "app/api/skills/route.js",
-  "/api/upload/route": "app/api/upload/route.js",
   "/page": "app/page.js",
-  "/api/contact/route": "app/api/contact/route.js"
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/api/settings/route": "app/api/settings/route.js",
+  "/api/upload/route": "app/api/upload/route.js"
 }
