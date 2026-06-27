@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "id": "dropfile",
+      "title": "DropFile",
+      "description": "A PHP/MySQL file-sharing web app with per-upload expiry windows, rate limiting, and privacy-first link handling. Hardened against abuse with prepared statements and CSRF protection.",
+      "image": "/uploads/placeholder-project.svg",
+      "tech": ["PHP", "MySQL", "JavaScript", "Security"],
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
+      "featured": true,
+      "createdAt": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "teamfreenet",
+      "title": "TeamFreeNet",
+      "description": "A Filipino community forum focused on network and free internet tips. Includes a follow system, leaderboard, achievements, and a dark blue theme with optimized query performance.",
+      "image": "/uploads/placeholder-project.svg",
+      "tech": ["PHP", "MySQL", "Bootstrap"],
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
+      "featured": true,
+      "createdAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "id": "techshop",
+      "title": "TechShop",
+      "description": "A PHP/MySQL e-commerce platform for PC parts, built as a school final project. Features a 'Clean Luxe' redesign, bcrypt password hashing, CSRF protection, and prepared statements throughout.",
+      "image": "/uploads/placeholder-project.svg",
+      "tech": ["PHP", "MySQL", "CSS"],
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
+      "featured": false,
+      "createdAt": "2026-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "studymate-ai",
+      "title": "StudyMate AI",
+      "description": "A Gemini API-integrated study assistant that helps students summarize notes and answer questions, deployed on InfinityFree.",
+      "image": "/uploads/placeholder-project.svg",
+      "tech": ["PHP", "JavaScript", "Gemini API"],
+      "github": "https://github.com/jamelsalik38-ux",
+      "demo": "",
+      "featured": false,
+      "createdAt": "2025-11-10T00:00:00.000Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "alison-html",
+      "title": "HTML5, CSS3 & JavaScript",
+      "issuer": "Alison",
+      "category": "Web Dev",
+      "image": "/uploads/placeholder-cert.svg",
+      "issuedAt": "2025-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "alison-php",
+      "title": "PHP & MySQL Application Development",
+      "issuer": "Alison",
+      "category": "Web Dev",
+      "image": "/uploads/placeholder-cert.svg",
+      "issuedAt": "2025-08-01T00:00:00.000Z"
+    }
+  ],
+  "skills": [
+    { "id": "skill-php", "name": "PHP", "category": "Language", "level": 90 },
+    { "id": "skill-mysql", "name": "MySQL", "category": "Database", "level": 85 },
+    { "id": "skill-html", "name": "HTML", "category": "Language", "level": 90 },
+    { "id": "skill-css", "name": "CSS", "category": "Language", "level": 85 },
+    { "id": "skill-js", "name": "JavaScript", "category": "Language", "level": 80 },
+    { "id": "skill-nextjs", "name": "Next.js", "category": "Framework/Library", "level": 70 },
+    { "id": "skill-react", "name": "React", "category": "Framework/Library", "level": 70 },
+    { "id": "skill-ts", "name": "TypeScript", "category": "Language", "level": 65 },
+    { "id": "skill-tailwind", "name": "Tailwind CSS", "category": "Framework/Library", "level": 75 },
+    { "id": "skill-framer", "name": "Framer Motion", "category": "Framework/Library", "level": 65 },
+    { "id": "skill-gsap", "name": "GSAP", "category": "Framework/Library", "level": 60 },
+    { "id": "skill-three", "name": "Three.js", "category": "Framework/Library", "level": 55 }
+  ],
+  "settings": {
+    "name": "Jamel Salik",
+    "role": "Full Stack Developer",
+    "profileImage": "",
+    "githubUrl": "https://github.com/jamelsalik38-ux",
+    "facebookUrl": "",
+    "email": "",
+    "resumeUrl": "",
+    "status": "Open to freelance & internship work"
+  }
+}
