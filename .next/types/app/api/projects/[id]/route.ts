@@ -1,8 +1,8 @@
-// File: /home/JamelMainOS/Downloads/LINKDROP FILE/portfolio-bw/src/app/api/upload/route.ts
-import * as entry from '../../../../../src/app/api/upload/route.js'
+// File: /home/JamelMainOS/Downloads/LINKDROP FILE/portfolio-bw/src/app/api/projects/[id]/route.ts
+import * as entry from '../../../../../../src/app/api/projects/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 
-type TEntry = typeof import('../../../../../src/app/api/upload/route.js')
+type TEntry = typeof import('../../../../../../src/app/api/projects/[id]/route.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

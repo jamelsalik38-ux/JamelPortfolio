@@ -1,19 +1,6 @@
 {
   "projects": [
     {
-      "id": "qx68tKt2",
-      "title": "dsdasd",
-      "description": "adad",
-      "image": "/uploads/NdegZrGO2A.png",
-      "tech": [
-        "ada"
-      ],
-      "github": "dadad",
-      "demo": "dada",
-      "featured": false,
-      "createdAt": "2026-06-27T14:16:04.753Z"
-    },
-    {
       "id": "XaNy9uGm",
       "title": "LinkDrop",
       "description": "LinkDrop is a fast and user-friendly online video downloader that enables users to download videos and audio from popular platforms such as YouTube, Facebook, Instagram, Twitter/X, Reddit, and more. With no registration required, it provides a simple interface where users can paste a video link and quickly download content in various formats and quality options, including Full HD and MP3.",
