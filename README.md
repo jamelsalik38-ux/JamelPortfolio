@@ -9,8 +9,6 @@ This is a **Node.js app**, not a static PHP site. **InfinityFree (and most free 
 - **[Vercel](https://vercel.com)** (made by the Next.js team, free tier, zero-config) — recommended.
 - Render, Railway, or Fly.io also work if you want more control over the server.
 
-Your existing PHP/MySQL projects (DropFile, TeamFreeNet, TechShop, etc.) can stay exactly where they are on InfinityFree — this is just a different stack for this particular project.
-
 ## Getting started
 
 ```bash
